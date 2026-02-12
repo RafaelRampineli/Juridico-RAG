@@ -20,6 +20,7 @@ The goal is to simulate a production-ready ingestion layer.
 
 
 What Is Implemented
+
 ✔ JSON Loader -> Structured legal documents are loaded from a JSON source.
 
 ✔ Text Consolidation -> Each document is transformed into a unified structured text block.
@@ -67,7 +68,7 @@ Tech Stack
 - YAML-based configuration
 - Streamlit
 
-What Is NOT Implemented Yet
+What Is NOT Implemented **YET**
 
 - Retrieval layer
 - LLM answer generation
@@ -79,6 +80,7 @@ What Is NOT Implemented Yet
 
 Why This Matters: Most RAG tutorials ignore ingestion control. In real production systems, Reindexing blindly increases cost, Duplicate vectors degrade retrieval, Lack of versioning creates data drift and Deletion without filters wipes indexes.
 This project addresses those risks directly.Juridico-RAG
+
 
 project/
 │
