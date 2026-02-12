@@ -54,6 +54,7 @@ Tech Stack
 - Pinecone
 - LangChain
 - YAML-based configuration
+- Streamlit
 
 What Is NOT Implemented Yet
 
