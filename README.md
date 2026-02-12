@@ -10,9 +10,20 @@ This project implements a controlled ingestion pipeline for a Retrieval-Augmente
   
 The goal is to simulate a production-ready ingestion layer.
 
+# How to use:
+
+1. After configured YAML API KEYS, you should run the file Ingest.py as a python run to ingest all data in pinecone vectors;
+2. Run streamlit run app.py to open Streamlit website and iteract using Semanthic Searchs about publics Brazilian legal documents. 
+
+<img width="1310" height="509" alt="image" src="https://github.com/user-attachments/assets/0097f643-5acf-403d-9166-91ac6bcaf209" />
+
+
+
 What Is Implemented
 ✔ JSON Loader -> Structured legal documents are loaded from a JSON source.
+
 ✔ Text Consolidation -> Each document is transformed into a unified structured text block.
+
 ✔ Intelligent Hashing -> A deterministic doc_hash is generated from document content.
 
 If:
